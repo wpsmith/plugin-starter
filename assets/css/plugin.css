@@ -1,0 +1,54 @@
+/* line 2, ../scss/feedback-form.scss */
+.feedback .form-group {
+  margin-bottom: 10px;
+}
+/* line 5, ../scss/feedback-form.scss */
+.feedback .form-group .form-control {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #1c94ff;
+  font-size: 16px;
+}
+/* line 14, ../scss/feedback-form.scss */
+.feedback .form-group .text-help {
+  color: #dc1d34;
+}
+/* line 19, ../scss/feedback-form.scss */
+.feedback label {
+  display: block;
+  margin-bottom: 2px;
+}
+/* line 24, ../scss/feedback-form.scss */
+.feedback .has-success .form-control {
+  border-bottom: 2px solid #168b3f;
+}
+/* line 28, ../scss/feedback-form.scss */
+.feedback .has-danger .form-control {
+  border-bottom: 2px solid #dc1d34;
+}
+/* line 32, ../scss/feedback-form.scss */
+.feedback .inline-label label {
+  display: inline;
+}
+/* line 36, ../scss/feedback-form.scss */
+.feedback .pristine-error {
+  display: table;
+}
+/* line 41, ../scss/feedback-form.scss */
+.feedback .feedback-button .feedback-spinner {
+  display: none;
+}
+/* line 45, ../scss/feedback-form.scss */
+.feedback .feedback-button .feedback-button-text {
+  display: inline-block;
+}
+/* line 50, ../scss/feedback-form.scss */
+.feedback .feedback-button.is-active .feedback-button-text {
+  display: none;
+}
+/* line 54, ../scss/feedback-form.scss */
+.feedback .feedback-button.is-active .feedback-spinner {
+  display: inline-block;
+}

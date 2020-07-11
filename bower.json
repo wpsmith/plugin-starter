@@ -1,0 +1,25 @@
+{
+  "name": "wps-plugin",
+  "description": "WPS Sample Plugin",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Travis Smith <t@wpsmith.net>"
+  ],
+  "license": "GPLv2+",
+  "keywords": [
+    "plugin",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/wpsmith/wps-plugin",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
